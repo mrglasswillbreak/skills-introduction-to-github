@@ -1,99 +1,107 @@
-<div align="center">
+# mrglasswillbreak — Portfolio Website
 
-# 🎉 Congratulations mrglasswillbreak! 🎉
+[![Live Site](https://img.shields.io/badge/Live%20Site-Visit-2563eb?style=flat-square&logo=github-pages&logoColor=white)](https://mrglasswillbreak.github.io/skills-introduction-to-github)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](https://gh.io/mit)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://octodex.github.com/images/welcometocat.png" />
-  <img src="https://octodex.github.com/images/welcometocat.png" width="200" alt="Welcome Octocat" />
-</picture>
-
-### 🌟 You've successfully completed the exercise! 🌟
-
-![Exercise Complete](https://img.shields.io/badge/Exercise-Complete-brightgreen?style=flat-square&logo=github)
-![GitHub Skills](https://img.shields.io/badge/GitHub%20Skills-Introduction%20to%20GitHub-blue?style=flat-square&logo=github)
-
-</div>
+A responsive, interactive personal portfolio website built with semantic HTML5, CSS custom properties, and vanilla JavaScript. Deployed via GitHub Pages.
 
 ---
 
-## 📋 What You Accomplished
+## ✨ Features
 
-<div align="center">
-
-| ✅ Skill | 📖 What You Learned |
-|:--------:|:--------------------|
-| 🌿 **Branching** | Created a new branch to safely work without affecting `main` |
-| 📝 **Committing** | Made your first commit by adding `PROFILE.md` |
-| 🔀 **Pull Requests** | Opened a PR to propose and review your changes |
-| 🔗 **Merging** | Merged your pull request into the `main` branch |
-
-</div>
-
----
-
-## 🚀 Share Your Success
-
-**Show off your new skills and inspire others!**
-
-<div align="center">
-
-<a href="https://twitter.com/intent/tweet?text=I%20just%20completed%20the%20%22Introduction%20to%20GitHub%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2Fmrglasswillbreak%2Fskills-introduction-to-github%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Share%20on%20X-1da1f2?style=for-the-badge&logo=x&logoColor=white" alt="Share on X" />
-</a>&nbsp;
-<a href="https://bsky.app/intent/compose?text=I%20just%20completed%20the%20%22Introduction%20to%20GitHub%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2Fmrglasswillbreak%2Fskills-introduction-to-github%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Share%20on%20Bluesky-0085ff?style=for-the-badge&logo=bluesky&logoColor=white" alt="Share on Bluesky" />
-</a>&nbsp;
-<a href="https://www.linkedin.com/feed/?shareActive=true&text=I%20just%20completed%20the%20%22Introduction%20to%20GitHub%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2Fmrglasswillbreak%2Fskills-introduction-to-github%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Share%20on%20LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Share on LinkedIn" />
-</a>
-
-</div>
+- **Dark / Light mode** – respects `prefers-color-scheme` and persists user preference via `localStorage`
+- **Responsive layout** – fluid grid and flexbox design that adapts from mobile (320 px) to wide desktop
+- **Animated hero** – typewriter effect cycling through role descriptions; floating code-window illustration
+- **Scroll-animated skill bars** – progress bars reveal and fill when they enter the viewport using the Intersection Observer API
+- **Project filter** – instantly filters cards by category (All / Web / Open Source / Tools) without page reload
+- **Contact form** – client-side validation with inline error messages and accessible live regions
+- **Scroll spy** – active navigation link updates as the user scrolls through sections
+- **Back-to-top button** – appears after scrolling 400 px and smooth-scrolls to the top
+- **Keyboard & screen-reader accessible** – semantic HTML, ARIA attributes, skip-link, focus styles
 
 ---
 
-## 🎯 What's Next?
+## 🗂️ Project Structure
 
-**Keep the momentum going!**
-
-<div align="center">
-
-[![Return to Exercise](https://img.shields.io/badge/Return%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/mrglasswillbreak/skills-introduction-to-github/issues/1)&nbsp;
-[![GitHub Skills](https://img.shields.io/badge/Explore%20GitHub%20Skills-000000?style=for-the-badge&logo=github&logoColor=white)](https://learn.github.com/skills)
-
-</div>
-
-<details>
-<summary>📚 Explore More GitHub Skills Exercises</summary>
-
-| Exercise | Description |
-|----------|-------------|
-| [Communicate using Markdown](https://github.com/skills/communicate-using-markdown) | Learn to format text, add images, and build lists |
-| [GitHub Pages](https://github.com/skills/github-pages) | Create a site directly from your repository |
-| [Review pull requests](https://github.com/skills/review-pull-requests) | Collaborate on code with PR reviews |
-| [Resolve merge conflicts](https://github.com/skills/resolve-merge-conflicts) | Tackle competing code changes |
-| [Release based workflow](https://github.com/skills/release-based-workflow) | Manage releases with GitHub Flow |
-
-</details>
-
-<details>
-<summary>🛠️ Build Your Own Profile README</summary>
-
-1. Create a **public** repository named exactly after your GitHub username (`mrglasswillbreak`)
-2. Add a `README.md` file at the root
-3. Write your profile content using [Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-4. Your profile README will appear at the top of your [GitHub profile page](https://github.com/mrglasswillbreak)
-
-> 💡 **Tip:** Check out [awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) for inspiration!
-
-</details>
+```
+.
+├── index.html      # Semantic HTML5 – single-page layout
+├── style.css       # CSS custom properties, responsive grid, animations
+├── script.js       # Vanilla JS – theme toggle, typed text, observer, form
+├── README.md       # Project documentation (this file)
+├── PROFILE.md      # GitHub profile text
+└── .github/        # GitHub Skills workflows and step instructions
+```
 
 ---
 
-<div align="center">
+## 🚀 Getting Started
 
-*There's no better way to learn than building things!* 🚀
+### View locally
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+```bash
+# Clone the repository
+git clone https://github.com/mrglasswillbreak/skills-introduction-to-github.git
 
-</div>
+# Open in your browser — no build step required
+open index.html      # macOS
+start index.html     # Windows
+xdg-open index.html  # Linux
+```
+
+### Deploy to GitHub Pages
+
+1. Go to **Settings → Pages** in your repository.
+2. Under *Source*, select the branch (`main`) and folder (`/ (root)`).
+3. Click **Save** — your site will be live at  
+   `https://mrglasswillbreak.github.io/skills-introduction-to-github`
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| HTML5 | Semantic page structure |
+| CSS3 (Custom Properties) | Design tokens, responsive layout, animations |
+| Vanilla JavaScript (ES6+) | Interactivity, DOM manipulation, Intersection Observer |
+| Font Awesome 6 | Icon library (via CDN) |
+| GitHub Pages | Static site hosting |
+
+---
+
+## 📱 Responsiveness
+
+| Breakpoint | Layout |
+|------------|--------|
+| < 600 px (mobile) | Single-column, stacked sections |
+| 600 – 900 px (tablet) | Two-column about grid, hamburger nav |
+| > 900 px (desktop) | Full hero split, multi-column grids |
+
+All components honor `prefers-reduced-motion` to disable animations for users who request it.
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome. For significant changes, please open an issue first to discuss what you would like to change.
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/my-change`)
+3. Commit your changes (`git commit -m 'Add my change'`)
+4. Push to your branch (`git push origin feature/my-change`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+Distributed under the [MIT License](https://gh.io/mit).
+
+---
+
+&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md)
 

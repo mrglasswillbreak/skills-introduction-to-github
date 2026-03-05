@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="mrglasswillbreak – Developer Portfolio" />
+    <title>mrglasswillbreak | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkWQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- ─── Navigation ─────────────────────────────────────────────── -->
+    <header>
+      <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <a href="#home" class="nav-logo" aria-label="mrglasswillbreak home">
+          &lt;mrglasswillbreak /&gt;
+        </a>
+        <button
+          class="nav-toggle"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span class="hamburger"></span>
+        </button>
+        <ul class="nav-links" id="nav-links" role="list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button
+          class="theme-toggle"
+          aria-label="Toggle dark / light mode"
+          title="Toggle colour theme"
+        >
+          <i class="fa-solid fa-moon" aria-hidden="true"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ─── Hero ───────────────────────────────────────────────────── -->
+      <section id="home" class="hero" aria-label="Hero section">
+        <div class="hero-content">
+          <p class="hero-greeting">Hi there 👋, I'm</p>
+          <h1 class="hero-name">mrglasswillbreak</h1>
+          <p class="hero-tagline">
+            <span class="typed-text" aria-live="polite"></span
+            ><span class="cursor" aria-hidden="true">|</span>
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+          </div>
+          <div class="hero-socials">
+            <a
+              href="https://github.com/mrglasswillbreak"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub profile"
+            >
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn profile"
+            >
+              <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a
+              href="mailto:hello@example.com"
+              aria-label="Send email"
+            >
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="hero-graphic" aria-hidden="true">
+          <div class="code-window">
+            <div class="window-bar">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <pre class="code-snippet"><code><span class="kw">const</span> developer = {
+  name:     <span class="str">"mrglasswillbreak"</span>,
+  passion:  <span class="str">"building cool stuff"</span>,
+  tools:    [<span class="str">"Git"</span>, <span class="str">"GitHub"</span>, <span class="str">"Web"</span>],
+  learning: <span class="kw">true</span>,
+};</code></pre>
+          </div>
+        </div>
+        <a href="#about" class="scroll-hint" aria-label="Scroll to About section">
+          <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+        </a>
+      </section>
+
+      <!-- ─── About ──────────────────────────────────────────────────── -->
+      <section id="about" class="section about" aria-label="About me">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-grid">
+            <div class="about-avatar" aria-hidden="true">
+              <img
+                src="https://avatars.githubusercontent.com/mrglasswillbreak?v=4"
+                alt="mrglasswillbreak GitHub avatar"
+                loading="lazy"
+                onerror="this.src='https://octodex.github.com/images/welcometocat.png'"
+              />
+            </div>
+            <div class="about-text">
+              <p>
+                I'm a developer passionate about open-source collaboration and
+                building things that matter. I recently completed GitHub's
+                <strong>Introduction to GitHub</strong> skills exercise and I'm
+                actively growing my skills every day.
+              </p>
+              <p>
+                When I'm not pushing code, you'll find me exploring new
+                technologies, contributing to open-source projects, and
+                connecting with the developer community.
+              </p>
+              <ul class="about-facts">
+                <li>
+                  <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                  Open to remote opportunities
+                </li>
+                <li>
+                  <i class="fa-solid fa-seedling" aria-hidden="true"></i>
+                  Currently learning: GitHub Actions &amp; CI/CD
+                </li>
+                <li>
+                  <i class="fa-solid fa-heart" aria-hidden="true"></i>
+                  Loves: Open Source, Git, Web Development
+                </li>
+              </ul>
+              <a
+                href="https://github.com/mrglasswillbreak"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary"
+              >
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+                View GitHub Profile
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── Skills ─────────────────────────────────────────────────── -->
+      <section id="skills" class="section skills" aria-label="Skills">
+        <div class="container">
+          <h2 class="section-title">Skills &amp; Tools</h2>
+          <div class="skills-grid">
+            <div class="skill-card" data-level="90">
+              <div class="skill-icon">
+                <i class="fa-brands fa-git-alt" aria-hidden="true"></i>
+              </div>
+              <h3>Git</h3>
+              <div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="Git proficiency 90%">
+                <div class="skill-fill" style="--target: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-card" data-level="85">
+              <div class="skill-icon">
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+              </div>
+              <h3>GitHub</h3>
+              <div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="GitHub proficiency 85%">
+                <div class="skill-fill" style="--target: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-card" data-level="80">
+              <div class="skill-icon">
+                <i class="fa-brands fa-html5" aria-hidden="true"></i>
+              </div>
+              <h3>HTML5</h3>
+              <div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="HTML5 proficiency 80%">
+                <div class="skill-fill" style="--target: 80%"></div>
+              </div>
+            </div>
+            <div class="skill-card" data-level="75">
+              <div class="skill-icon">
+                <i class="fa-brands fa-css3-alt" aria-hidden="true"></i>
+              </div>
+              <h3>CSS3</h3>
+              <div class="skill-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="CSS3 proficiency 75%">
+                <div class="skill-fill" style="--target: 75%"></div>
+              </div>
+            </div>
+            <div class="skill-card" data-level="70">
+              <div class="skill-icon">
+                <i class="fa-brands fa-js" aria-hidden="true"></i>
+              </div>
+              <h3>JavaScript</h3>
+              <div class="skill-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="JavaScript proficiency 70%">
+                <div class="skill-fill" style="--target: 70%"></div>
+              </div>
+            </div>
+            <div class="skill-card" data-level="65">
+              <div class="skill-icon">
+                <i class="fa-solid fa-terminal" aria-hidden="true"></i>
+              </div>
+              <h3>CLI &amp; Bash</h3>
+              <div class="skill-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" aria-label="CLI &amp; Bash proficiency 65%">
+                <div class="skill-fill" style="--target: 65%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── Projects ───────────────────────────────────────────────── -->
+      <section id="projects" class="section projects" aria-label="Projects">
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <div class="filter-bar" role="group" aria-label="Filter projects">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="open-source">Open Source</button>
+            <button class="filter-btn" data-filter="tools">Tools</button>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card" data-category="open-source">
+              <div class="project-card-img" aria-hidden="true">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div class="project-card-body">
+                <h3>Introduction to GitHub</h3>
+                <p>
+                  Completed GitHub's hands-on skills exercise covering
+                  branches, commits, pull requests, and merging.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Git</span>
+                  <span class="tag">GitHub</span>
+                  <span class="tag">Open Source</span>
+                </div>
+              </div>
+              <div class="project-card-footer">
+                <a
+                  href="https://github.com/mrglasswillbreak/skills-introduction-to-github"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-sm"
+                >
+                  <i class="fa-brands fa-github" aria-hidden="true"></i> Code
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="web">
+              <div class="project-card-img" aria-hidden="true">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div class="project-card-body">
+                <h3>Portfolio Website</h3>
+                <p>
+                  This responsive, interactive portfolio built with semantic
+                  HTML5, CSS custom properties, and vanilla JavaScript.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">HTML5</span>
+                  <span class="tag">CSS3</span>
+                  <span class="tag">JavaScript</span>
+                </div>
+              </div>
+              <div class="project-card-footer">
+                <a
+                  href="https://github.com/mrglasswillbreak/skills-introduction-to-github"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-sm"
+                >
+                  <i class="fa-brands fa-github" aria-hidden="true"></i> Code
+                </a>
+                <a
+                  href="https://mrglasswillbreak.github.io/skills-introduction-to-github"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-sm btn-outline"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Live
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="tools">
+              <div class="project-card-img" aria-hidden="true">
+                <i class="fa-solid fa-wrench"></i>
+              </div>
+              <div class="project-card-body">
+                <h3>Developer Toolkit</h3>
+                <p>
+                  A curated collection of scripts, dotfiles, and automation
+                  workflows to streamline day-to-day development tasks.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Bash</span>
+                  <span class="tag">CLI</span>
+                  <span class="tag">Automation</span>
+                </div>
+              </div>
+              <div class="project-card-footer">
+                <a
+                  href="https://github.com/mrglasswillbreak"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-sm"
+                >
+                  <i class="fa-brands fa-github" aria-hidden="true"></i> Code
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── Contact ────────────────────────────────────────────────── -->
+      <section id="contact" class="section contact" aria-label="Contact">
+        <div class="container contact-inner">
+          <h2 class="section-title">Get in Touch</h2>
+          <p class="contact-intro">
+            Have a project in mind or just want to say hello? I'd love to hear
+            from you!
+          </p>
+          <form
+            id="contact-form"
+            class="contact-form"
+            novalidate
+            aria-label="Contact form"
+          >
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                autocomplete="name"
+                required
+              />
+              <span class="field-error" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="your@email.com"
+                autocomplete="email"
+                required
+              />
+              <span class="field-error" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Your message…"
+                required
+              ></textarea>
+              <span class="field-error" role="alert"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+              Send Message
+            </button>
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ─── Footer ────────────────────────────────────────────────────── -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>
+          Built with ❤️ by
+          <a
+            href="https://github.com/mrglasswillbreak"
+            target="_blank"
+            rel="noopener noreferrer"
+          >mrglasswillbreak</a>
+          &nbsp;·&nbsp;
+          <a
+            href="https://github.com/mrglasswillbreak/skills-introduction-to-github"
+            target="_blank"
+            rel="noopener noreferrer"
+          >View Source</a>
+        </p>
+        <p class="footer-legal">
+          &copy; <span id="year"></span> mrglasswillbreak &bull;
+          <a href="https://gh.io/mit" target="_blank" rel="noopener noreferrer">MIT License</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Back-to-top button -->
+    <button
+      id="back-to-top"
+      class="back-to-top"
+      aria-label="Scroll back to top"
+      title="Back to top"
+      hidden
+    >
+      <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
