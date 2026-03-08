@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mrglasswillbreak — Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio and featured projects for mrglasswillbreak."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ── Navigation ───────────────────────────────────────────────────── -->
+    <nav>
+      <a class="nav-brand" href="#hero">mrglasswillbreak</a>
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li>
+          <a
+            href="https://github.com/mrglasswillbreak"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- ── Hero ─────────────────────────────────────────────────────────── -->
+    <header class="hero" id="hero">
+      <h1>Hi, I'm <span>mrglasswillbreak</span> 👋</h1>
+      <p>I build things for the web. Check out my featured projects below.</p>
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a
+        href="https://github.com/mrglasswillbreak"
+        class="btn btn-outline"
+        target="_blank"
+        rel="noopener noreferrer"
+        >GitHub Profile</a
+      >
+    </header>
+
+    <!-- ── Featured Projects ─────────────────────────────────────────────── -->
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <p class="section-sub">
+        Projects I've built and am proud to share. Data is sourced from
+        <code>projects.ts</code>.
+      </p>
+      <!--
+        Project cards are injected here by main.js.
+        Each project with `featured: true` in projects.ts will appear as a card.
+      -->
+      <div class="projects-grid" id="featured-projects" aria-live="polite">
+        <!-- Cards rendered by main.js -->
+      </div>
+    </section>
+
+    <!-- ── Footer ───────────────────────────────────────────────────────── -->
+    <footer>
+      <p>
+        &copy; 2026 mrglasswillbreak &bull;
+        <a
+          href="https://github.com/mrglasswillbreak/skills-introduction-to-github"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Source on GitHub</a
+        >
+      </p>
+    </footer>
+
+    <!--
+      projects.js MUST be loaded before main.js.
+      It exposes the `projects` array (compiled from projects.ts).
+    -->
+    <script src="projects.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
